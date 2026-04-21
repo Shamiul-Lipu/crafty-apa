@@ -51,10 +51,6 @@ Context API → cart + auth state
 Protect routes via middleware (/middleware.ts)
 Keep logic modular (services/, lib/)
 
-If you want next:
-👉 Prisma schema
-👉 folder structure
-👉 or actual route handler code
 generator client {
 provider = "prisma-client-js"
 }

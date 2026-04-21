@@ -46,75 +46,81 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-foreground: var(--tertiary-foreground);
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  --background: oklch(0.98 0.01 80); /* Cream */
+  --foreground: oklch(0.3 0.03 40); /* Dark brown */
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  --card-foreground: oklch(0.3 0.03 40);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  --popover-foreground: oklch(0.3 0.03 40);
+  --primary: oklch(0.35 0.05 45); /* Chocolate Brown */
+  --primary-foreground: oklch(0.98 0.01 80); /* Cream text on primary */
+  --secondary: oklch(0.94 0.02 60); /* Soft pastel peach/beige */
+  --secondary-foreground: oklch(0.35 0.05 45);
+  --tertiary: oklch(0.55 0.08 160);
+  --tertiary-foreground: oklch(0.98 0.01 80);
+  --muted: oklch(0.94 0.01 80);
+  --muted-foreground: oklch(0.55 0.04 40);
+  --accent: oklch(0.95 0.02 60);
+  --accent-foreground: oklch(0.35 0.05 45);
+  --destructive: oklch(0.58 0.24 27);
+  --border: oklch(0.9 0.02 60);
+  --input: oklch(0.9 0.02 60);
+  --ring: oklch(0.35 0.05 45);
+  --chart-1: oklch(0.35 0.05 45);
+  --chart-2: oklch(0.88 0.08 50);
+  --chart-3: oklch(0.44 0.02 40);
+  --chart-4: oklch(0.37 0.01 40);
+  --chart-5: oklch(0.27 0.01 40);
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: oklch(0.98 0.01 80);
+  --sidebar-foreground: oklch(0.3 0.03 40);
+  --sidebar-primary: oklch(0.35 0.05 45);
+  --sidebar-primary-foreground: oklch(0.98 0.01 80);
+  --sidebar-accent: oklch(0.94 0.02 60);
+  --sidebar-accent-foreground: oklch(0.35 0.05 45);
+  --sidebar-border: oklch(0.9 0.02 60);
+  --sidebar-ring: oklch(0.35 0.05 45);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.205 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.205 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.922 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.556 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --background: oklch(0.18 0.02 40); /* Deep dark brown */
+  --foreground: oklch(0.98 0.01 80); /* Cream text */
+  --card: oklch(0.22 0.02 40);
+  --card-foreground: oklch(0.98 0.01 80);
+  --popover: oklch(0.22 0.02 40);
+  --popover-foreground: oklch(0.98 0.01 80);
+  --primary: oklch(0.88 0.04 60); /* Light pastel brown for dark mode */
+  --primary-foreground: oklch(0.25 0.03 40);
+  --secondary: oklch(0.28 0.03 40);
+  --secondary-foreground: oklch(0.98 0.01 80);
+  --muted: oklch(0.28 0.03 40);
+  --muted-foreground: oklch(0.7 0.02 60);
+  --accent: oklch(0.28 0.03 40);
+  --accent-foreground: oklch(0.98 0.01 80);
+  --tertiary: #507661;
+  --tertiary-foreground: oklch(0.98 0.01 80);
+  --destructive: oklch(0.7 0.19 22);
+  --border: oklch(0.3 0.03 40);
+  --input: oklch(0.3 0.03 40);
+  --ring: oklch(0.88 0.04 60);
+  --chart-1: oklch(0.88 0.04 60);
+  --chart-2: oklch(0.55 0.08 50);
+  --chart-3: oklch(0.44 0.02 40);
+  --chart-4: oklch(0.37 0.01 40);
+  --chart-5: oklch(0.27 0.01 40);
+  --sidebar: oklch(0.18 0.02 40);
+  --sidebar-foreground: oklch(0.98 0.01 80);
+  --sidebar-primary: oklch(0.88 0.04 60);
+  --sidebar-primary-foreground: oklch(0.25 0.03 40);
+  --sidebar-accent: oklch(0.28 0.03 40);
+  --sidebar-accent-foreground: oklch(0.98 0.01 80);
+  --sidebar-border: oklch(0.3 0.03 40);
+  --sidebar-ring: oklch(0.88 0.04 60);
 }
 
 @layer base {
@@ -127,4 +133,66 @@
   html {
     @apply font-sans;
   }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+@keyframes float-slower {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+.animate-float-slower {
+  animation: float-slower 8s ease-in-out infinite;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in {
+  animation: fade-in 1s ease forwards;
+}
+.animate-fade-in.delay-500 {
+  animation-delay: 0.5s;
+}
+.animate-fade-in.delay-700 {
+  animation-delay: 0.7s;
+}
+.animate-fade-in.delay-900 {
+  animation-delay: 0.9s;
 }
